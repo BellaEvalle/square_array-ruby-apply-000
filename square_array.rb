@@ -1,8 +1,8 @@
-def square_array(array)
-  squared_array = []
+def square_array (array)
+  new_array = []
   array.each do |num|
     square = num ** 2
-    squared_array << square
+    new_array << square
   end
-  squared_array
+  new_array
 end
